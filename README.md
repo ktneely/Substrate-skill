@@ -25,6 +25,7 @@ cd `$PAI_DIR/PAI/Tools`
 bun run GenerateSkillIndex.ts
 ```
 
+
 ### Maintenance tool
 
 #### Install the script
@@ -43,10 +44,30 @@ To update the links and run the Maintenance, simply provide your substrate as th
 `bun run maintainSubstrate.ts --substrate global`  from `$PAI_DIR/PAI/Tools` or reference it explicity. 
 
 
+### Configuration
+
+Open up `$PAI_DIR/PAI/skills/<parent>/Substrate/config.yaml` in a text editor, review, and update with your preferences.
+
+
 ## Example
 
-In this repository is a simple [example](Example/) of the very beginnings of getting data into Substrate.  Two articles were run against the "DocumentIngest" workflow and the Maintenance script was run afterwards to create the linkage. 
+In this repository is a simple [example](Example/substrate-global) of the very beginnings of getting data into Substrate.  Two articles were run against the "DocumentIngest" workflow and the Maintenance script was run afterwards to create the linkage. 
 
 The articles used were:
 - https://www.texasmonthly.com/news-politics/san-antonio-trailer-deaths-migrant-smuggling/
 - https://wbrassociation.org.uk/why-changing-our-environment-is-so-hard/
+
+## Future workflow
+
+Todo list of things I'd like to add in the future
+
+**Definitely**
+
+- [ ] Create some usage workflows (currently everyhing is about data ingest and organization. I want some canned uses, rather than only extemporaneous ones)
+- [ ] Create a map in Mermaid of the current contents
+- [ ] Specify a specific component and create a Mermaid graph of just that.
+
+
+**Just an idea**
+
+- [ ] Create an Obsidian Vault from the contents (enabling a graph view through its native capability
