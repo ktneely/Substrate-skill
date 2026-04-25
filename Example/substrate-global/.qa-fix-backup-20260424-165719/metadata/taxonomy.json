@@ -1,0 +1,202 @@
+{
+  "version": "1.0.0",
+  "component_types": {
+    "PR": {
+      "type": "Problem",
+      "directory": "problems",
+      "description": "Things that need solving",
+      "verification": "moderate",
+      "relationships": {
+        "addresses": ["SO"],
+        "addressed_by": ["SO"],
+        "constrained_by": ["LA"],
+        "reframes": ["CL"],
+        "involves": ["PE", "OR"]
+      }
+    },
+    "SO": {
+      "type": "Solution",
+      "directory": "solutions",
+      "description": "Ways to address problems",
+      "verification": "moderate",
+      "relationships": {
+        "addresses": ["PR"],
+        "addressed_by": ["PR"],
+        "supported_by": ["FA", "DS"],
+        "constrained_by": ["LA"]
+      }
+    },
+    "AR": {
+      "type": "Argument",
+      "directory": "arguments",
+      "description": "Reasoned positions on claims",
+      "verification": "moderate",
+      "relationships": {
+        "supports": ["CL", "PR", "SO"],
+        "contradicts": ["CL", "AR"],
+        "supported_by": ["FA", "DS"]
+      }
+    },
+    "CL": {
+      "type": "Claim",
+      "directory": "claims",
+      "description": "Assertions requiring evidence",
+      "verification": "relaxed",
+      "relationships": {
+        "supported_by": ["FA", "DS"],
+        "argued_by": ["AR"],
+        "reframes": ["PR"]
+      }
+    },
+    "PL": {
+      "type": "Plan",
+      "directory": "plans",
+      "description": "Structured approaches to action",
+      "verification": "moderate",
+      "relationships": {
+        "addresses": ["PR", "GO"],
+        "contains": ["SO", "PL", "AR", "CL"],
+        "defines": ["MO", "FR"],
+        "measured_by": ["GO"],
+        "guided_by": ["VA"]
+      }
+    },
+    "ID": {
+      "type": "Idea",
+      "directory": "ideas",
+      "description": "Concepts worth exploring",
+      "verification": "relaxed",
+      "relationships": {
+        "evolves_to": ["SO", "PL", "PJ"]
+      }
+    },
+    "PE": {
+      "type": "Person",
+      "directory": "people",
+      "description": "Individuals of interest",
+      "verification": "moderate",
+      "relationships": {
+        "belongs_to": ["OR"],
+        "leads": ["OR", "PJ"],
+        "involved_in": ["EV"]
+      }
+    },
+    "OR": {
+      "type": "Organization",
+      "directory": "organizations",
+      "description": "Groups, companies, institutions",
+      "verification": "moderate",
+      "relationships": {
+        "owns": ["PJ"],
+        "has_members": ["PE"],
+        "involved_in": ["EV"]
+      }
+    },
+    "PJ": {
+      "type": "Project",
+      "directory": "projects",
+      "description": "Initiatives with defined scope",
+      "verification": "moderate",
+      "relationships": {
+        "executes": ["PL"],
+        "contains": ["PR", "SO", "PL", "AR"],
+        "owned_by": ["OR"],
+        "funded_by": ["FU"]
+      }
+    },
+    "VA": {
+      "type": "Value",
+      "directory": "values",
+      "description": "Principles guiding decisions",
+      "verification": "relaxed",
+      "relationships": {
+        "guides": ["PL", "GO", "PJ"]
+      }
+    },
+    "MO": {
+      "type": "Model",
+      "directory": "models",
+      "description": "Mental models, frameworks",
+      "verification": "moderate",
+      "relationships": {
+        "informs": ["FR", "PL", "AR"]
+      }
+    },
+    "FR": {
+      "type": "Frame",
+      "directory": "frames",
+      "description": "Ways of viewing a situation",
+      "verification": "relaxed",
+      "relationships": {
+        "reframes": ["PR", "CL"],
+        "informed_by": ["MO"]
+      }
+    },
+    "DS": {
+      "type": "Data-Source",
+      "directory": "data-sources",
+      "description": "Information sources",
+      "verification": "strict",
+      "relationships": {
+        "supports": ["CL", "FA", "AR"]
+      }
+    },
+    "LA": {
+      "type": "Law",
+      "directory": "laws",
+      "description": "Regulations, policies, rules",
+      "verification": "strict",
+      "relationships": {
+        "constrains": ["PR", "SO", "PJ"]
+      }
+    },
+    "VO": {
+      "type": "Vote",
+      "directory": "votes",
+      "description": "Voting records, positions",
+      "verification": "strict",
+      "relationships": {
+        "supports": ["LA", "PL"],
+        "by": ["PE", "OR"]
+      }
+    },
+    "FU": {
+      "type": "Funding-Source",
+      "directory": "funding-sources",
+      "description": "Financial backers, patrons",
+      "verification": "strict",
+      "relationships": {
+        "funds": ["OR", "PJ", "PE"]
+      }
+    },
+    "GO": {
+      "type": "Goal",
+      "directory": "goals",
+      "description": "Desired outcomes",
+      "verification": "moderate",
+      "relationships": {
+        "drives": ["PL", "PJ"],
+        "measures": ["PL"],
+        "guided_by": ["VA"]
+      }
+    },
+    "FA": {
+      "type": "Fact",
+      "directory": "facts",
+      "description": "Verified information",
+      "verification": "strict",
+      "relationships": {
+        "supports": ["CL", "AR", "SO"]
+      }
+    },
+    "EV": {
+      "type": "Event",
+      "directory": "events",
+      "description": "Occurrences with temporal context",
+      "verification": "moderate",
+      "relationships": {
+        "involves": ["PE", "OR", "PJ"]
+      }
+    }
+  }
+}

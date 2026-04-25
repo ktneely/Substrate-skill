@@ -1,0 +1,484 @@
+{
+  "substrate": "global",
+  "created": "2026-04-24",
+  "last_updated": "2026-04-24",
+  "total_components": 67,
+  "components": {
+    "PE-00001": {
+      "code": "PE-00001",
+      "type": "Person",
+      "title": "Begaí Santiago Hipólito",
+      "file": "components/people/PE-00001-begai-santiago-hipolito.md",
+      "status": "active"
+    },
+    "PE-00002": {
+      "code": "PE-00002",
+      "type": "Person",
+      "title": "José Luis Vasquez Guzmán",
+      "file": "components/people/PE-00002-jose-luis-vasquez-guzman.md",
+      "status": "active"
+    },
+    "PE-00003": {
+      "code": "PE-00003",
+      "type": "Person",
+      "title": "Cristina Ramírez",
+      "file": "components/people/PE-00003-cristina-ramirez.md",
+      "status": "active"
+    },
+    "PE-00004": {
+      "code": "PE-00004",
+      "type": "Person",
+      "title": "Mariano Santiago Hipólito",
+      "file": "components/people/PE-00004-mariano-santiago-hipolito.md",
+      "status": "active"
+    },
+    "PE-00005": {
+      "code": "PE-00005",
+      "type": "Person",
+      "title": "Felipe Orduña Torres",
+      "file": "components/people/PE-00005-felipe-orduna-torres.md",
+      "status": "active"
+    },
+    "PE-00006": {
+      "code": "PE-00006",
+      "type": "Person",
+      "title": "José Martínez Olvera",
+      "file": "components/people/PE-00006-jose-martinez-olvera.md",
+      "status": "active"
+    },
+    "PE-00007": {
+      "code": "PE-00007",
+      "type": "Person",
+      "title": "Homero Zamorano Jr",
+      "file": "components/people/PE-00007-homero-zamorano-jr.md",
+      "status": "active"
+    },
+    "PE-00008": {
+      "code": "PE-00008",
+      "type": "Person",
+      "title": "Christian Martinez",
+      "file": "components/people/PE-00008-christian-martinez.md",
+      "status": "active"
+    },
+    "PE-00009": {
+      "code": "PE-00009",
+      "type": "Person",
+      "title": "Juan D'Luna Bilbao",
+      "file": "components/people/PE-00009-juan-dluna-bilbao.md",
+      "status": "active"
+    },
+    "PE-00010": {
+      "code": "PE-00010",
+      "type": "Person",
+      "title": "Oslidio López",
+      "file": "components/people/PE-00010-oslidio-lopez.md",
+      "status": "active"
+    },
+    "PE-00011": {
+      "code": "PE-00011",
+      "type": "Person",
+      "title": "Delfina Bacajol",
+      "file": "components/people/PE-00011-delfina-bacajol.md",
+      "status": "active"
+    },
+    "PE-00012": {
+      "code": "PE-00012",
+      "type": "Person",
+      "title": "Virgilia López",
+      "file": "components/people/PE-00012-virgilia-lopez.md",
+      "status": "active"
+    },
+    "PE-00013": {
+      "code": "PE-00013",
+      "type": "Person",
+      "title": "Luz Estrella Cuevas Remolino",
+      "file": "components/people/PE-00013-luz-estrella-cuevas-remolino.md",
+      "status": "active"
+    },
+    "PE-00014": {
+      "code": "PE-00014",
+      "type": "Person",
+      "title": "María Antonia Torres Morales",
+      "file": "components/people/PE-00014-maria-antonia-torres-morales.md",
+      "status": "active"
+    },
+    "PE-00015": {
+      "code": "PE-00015",
+      "type": "Person",
+      "title": "Elliott Woods",
+      "file": "components/people/PE-00015-elliott-woods.md",
+      "status": "active"
+    },
+    "OR-00001": {
+      "code": "OR-00001",
+      "type": "Organization",
+      "title": "Cártel del Noreste",
+      "file": "components/organizations/OR-00001-cartel-del-noreste.md",
+      "status": "active"
+    },
+    "OR-00002": {
+      "code": "OR-00002",
+      "type": "Organization",
+      "title": "Los Zetas",
+      "file": "components/organizations/OR-00002-los-zetas.md",
+      "status": "active"
+    },
+    "OR-00003": {
+      "code": "OR-00003",
+      "type": "Organization",
+      "title": "Gulf Cartel",
+      "file": "components/organizations/OR-00003-gulf-cartel.md",
+      "status": "active"
+    },
+    "OR-00004": {
+      "code": "OR-00004",
+      "type": "Organization",
+      "title": "Border Patrol CBP",
+      "file": "components/organizations/OR-00004-border-patrol-cbp.md",
+      "status": "active"
+    },
+    "OR-00005": {
+      "code": "OR-00005",
+      "type": "Organization",
+      "title": "Homeland Security Investigations",
+      "file": "components/organizations/OR-00005-homeland-security-investigations.md",
+      "status": "active"
+    },
+    "OR-00006": {
+      "code": "OR-00006",
+      "type": "Organization",
+      "title": "San Antonio Police Department",
+      "file": "components/organizations/OR-00006-san-antonio-police-department.md",
+      "status": "active"
+    },
+    "OR-00007": {
+      "code": "OR-00007",
+      "type": "Organization",
+      "title": "Texas Monthly",
+      "file": "components/organizations/OR-00007-texas-monthly.md",
+      "status": "active"
+    },
+    "EV-00001": {
+      "code": "EV-00001",
+      "type": "Event",
+      "title": "San Antonio Tractor-Trailer Disaster",
+      "file": "components/events/EV-00001-san-antonio-trailer-disaster.md",
+      "status": "active"
+    },
+    "EV-00002": {
+      "code": "EV-00002",
+      "type": "Event",
+      "title": "Body Identification and Repatriation",
+      "file": "components/events/EV-00002-body-identification-repatriation.md",
+      "status": "active"
+    },
+    "EV-00003": {
+      "code": "EV-00003",
+      "type": "Event",
+      "title": "Criminal Prosecutions",
+      "file": "components/events/EV-00003-criminal-prosecutions.md",
+      "status": "active"
+    },
+    "FA-00001": {
+      "code": "FA-00001",
+      "type": "Fact",
+      "title": "53 Migrant Deaths",
+      "file": "components/facts/FA-00001-53-migrant-deaths.md",
+      "status": "active"
+    },
+    "FA-00002": {
+      "code": "FA-00002",
+      "type": "Fact",
+      "title": "Smuggling Fee Economics",
+      "file": "components/facts/FA-00002-smuggling-fee-economics.md",
+      "status": "active"
+    },
+    "FA-00003": {
+      "code": "FA-00003",
+      "type": "Fact",
+      "title": "Prevention Through Deterrence Policy",
+      "file": "components/facts/FA-00003-prevention-through-deterrence-policy.md",
+      "status": "active"
+    },
+    "FA-00004": {
+      "code": "FA-00004",
+      "type": "Fact",
+      "title": "Lethal Trailer Conditions",
+      "file": "components/facts/FA-00004-lethal-trailer-conditions.md",
+      "status": "active"
+    },
+    "FA-00005": {
+      "code": "FA-00005",
+      "type": "Fact",
+      "title": "Cartel Control of Smuggling Routes",
+      "file": "components/facts/FA-00005-cartel-control-smuggling-routes.md",
+      "status": "active"
+    },
+    "FA-00006": {
+      "code": "FA-00006",
+      "type": "Fact",
+      "title": "Checkpoint 29 Influences Smuggling Routes",
+      "file": "components/facts/FA-00006-checkpoint-29-influences-routes.md",
+      "status": "active"
+    },
+    "FA-00007": {
+      "code": "FA-00007",
+      "type": "Fact",
+      "title": "Migrant Nationalities",
+      "file": "components/facts/FA-00007-migrant-nationalities.md",
+      "status": "active"
+    },
+    "FA-00008": {
+      "code": "FA-00008",
+      "type": "Fact",
+      "title": "Survivor Testimonies",
+      "file": "components/facts/FA-00008-survivor-testimonies.md",
+      "status": "active"
+    },
+    "PR-00001": {
+      "code": "PR-00001",
+      "type": "Problem",
+      "title": "Human Smuggling Under Lethal Conditions",
+      "file": "components/problems/PR-00001-human-smuggling-lethal-conditions.md",
+      "status": "active"
+    },
+    "PR-00002": {
+      "code": "PR-00002",
+      "type": "Problem",
+      "title": "Border Militarization Failure",
+      "file": "components/problems/PR-00002-border-militarization-failure.md",
+      "status": "active"
+    },
+    "PR-00003": {
+      "code": "PR-00003",
+      "type": "Problem",
+      "title": "Cartel Extortion of Migrants",
+      "file": "components/problems/PR-00003-cartel-extortion-migrants.md",
+      "status": "active"
+    },
+    "PR-00004": {
+      "code": "PR-00004",
+      "type": "Problem",
+      "title": "Legal System Limitations",
+      "file": "components/problems/PR-00004-legal-system-limitations.md",
+      "status": "active"
+    },
+    "PR-00005": {
+      "code": "PR-00005",
+      "type": "Problem",
+      "title": "Family Separation and Trauma",
+      "file": "components/problems/PR-00005-family-separation-trauma.md",
+      "status": "active"
+    },
+    "PR-00006": {
+      "code": "PR-00006",
+      "type": "Problem",
+      "title": "Media Awareness Gap",
+      "file": "components/problems/PR-00006-media-awareness-gap.md",
+      "status": "active"
+    },
+    "PR-00007": {
+      "code": "PR-00007",
+      "type": "Problem",
+      "title": "Urban Space Dominated by Cars",
+      "file": "components/problems/PR-00007-urban-space-dominated-by-cars.md",
+      "status": "active"
+    },
+    "PR-00008": {
+      "code": "PR-00008",
+      "type": "Problem",
+      "title": "Road Deaths and Serious Injuries",
+      "file": "components/problems/PR-00008-road-deaths-and-serious-injuries.md",
+      "status": "active"
+    },
+    "PR-00009": {
+      "code": "PR-00009",
+      "type": "Problem",
+      "title": "Business Misconception About Car Dependency",
+      "file": "components/problems/PR-00009-business-misconception-car-dependency.md",
+      "status": "active"
+    },
+    "SO-00001": {
+      "code": "SO-00001",
+      "type": "Solution",
+      "title": "Pedestrianised City Centres",
+      "file": "components/solutions/SO-00001-pedestrianised-city-centres.md",
+      "status": "active"
+    },
+    "SO-00002": {
+      "code": "SO-00002",
+      "type": "Solution",
+      "title": "Cargo-Bike Last-Mile Delivery",
+      "file": "components/solutions/SO-00002-cargo-bike-last-mile-delivery.md",
+      "status": "active"
+    },
+    "SO-00003": {
+      "code": "SO-00003",
+      "type": "Solution",
+      "title": "ActionVisionZero Road Safety",
+      "file": "components/solutions/SO-00003-actionvisionzero-road-safety.md",
+      "status": "active"
+    },
+    "AR-00001": {
+      "code": "AR-00001",
+      "type": "Argument",
+      "title": "Infrastructure Changes Force Driver Awareness",
+      "file": "components/arguments/AR-00001-infrastructure-forces-driver-awareness.md",
+      "status": "active"
+    },
+    "AR-00002": {
+      "code": "AR-00002",
+      "type": "Argument",
+      "title": "People Shop Not Cars",
+      "file": "components/arguments/AR-00002-people-shop-not-cars.md",
+      "status": "active"
+    },
+    "CL-00001": {
+      "code": "CL-00001",
+      "type": "Claim",
+      "title": "Car Use Is Cultural Addiction Not Necessity",
+      "file": "components/claims/CL-00001-car-use-is-cultural-addiction.md",
+      "status": "active"
+    },
+    "CL-00002": {
+      "code": "CL-00002",
+      "type": "Claim",
+      "title": "Post-Change Acceptance Is Universal",
+      "file": "components/claims/CL-00002-post-change-acceptance-universal.md",
+      "status": "active"
+    },
+    "CL-00003": {
+      "code": "CL-00003",
+      "type": "Claim",
+      "title": "Enforcement Through Deterrence Is Counterproductive",
+      "file": "components/claims/CL-00003-enforcement-through-deterrence.md",
+      "status": "active"
+    },
+    "ID-00001": {
+      "code": "ID-00001",
+      "type": "Idea",
+      "title": "Out-of-Town Loading Hubs for Urban Delivery",
+      "file": "components/ideas/ID-00001-out-of-town-loading-hubs.md",
+      "status": "active"
+    },
+    "PE-00016": {
+      "code": "PE-00016",
+      "type": "Person",
+      "title": "Iain Walker",
+      "file": "components/people/PE-00016-iain-walker.md",
+      "status": "active"
+    },
+    "PE-00017": {
+      "code": "PE-00017",
+      "type": "Person",
+      "title": "Zoran Janković",
+      "file": "components/people/PE-00017-zoran-jankovic.md",
+      "status": "active"
+    },
+    "OR-00008": {
+      "code": "OR-00008",
+      "type": "Organization",
+      "title": "Wandsworth Bridge Road Association",
+      "file": "components/organizations/OR-00008-wandsworth-bridge-road-association.md",
+      "status": "active"
+    },
+    "OR-00009": {
+      "code": "OR-00009",
+      "type": "Organization",
+      "title": "Living Streets",
+      "file": "components/organizations/OR-00009-living-streets.md",
+      "status": "active"
+    },
+    "OR-00010": {
+      "code": "OR-00010",
+      "type": "Organization",
+      "title": "PACTS (Parliamentary Advisory Council for Transport Safety)",
+      "file": "components/organizations/OR-00010-pacts.md",
+      "status": "active"
+    },
+    "MO-00001": {
+      "code": "MO-00001",
+      "type": "Model",
+      "title": "Baseline Syndrome (Shifting Baseline)",
+      "file": "components/models/MO-00001-baseline-syndrome.md",
+      "status": "active"
+    },
+    "MO-00002": {
+      "code": "MO-00002",
+      "type": "Model",
+      "title": "Motonormativity",
+      "file": "components/models/MO-00002-motonormativity.md",
+      "status": "active"
+    },
+    "MO-00003": {
+      "code": "MO-00003",
+      "type": "Model",
+      "title": "Hill of Hysteria (Change Response Curve)",
+      "file": "components/models/MO-00003-hill-of-hysteria.md",
+      "status": "active"
+    },
+    "MO-00004": {
+      "code": "MO-00004",
+      "type": "Model",
+      "title": "Conscious Thought (Dual-Process Driving Behaviour)",
+      "file": "components/models/MO-00004-conscious-thought.md",
+      "status": "active"
+    },
+    "FR-00001": {
+      "code": "FR-00001",
+      "type": "Frame",
+      "title": "Car Addiction as Cultural Dependency",
+      "file": "components/frames/FR-00001-car-addiction-frame.md",
+      "status": "active"
+    },
+    "DS-00001": {
+      "code": "DS-00001",
+      "type": "Data-Source",
+      "title": "The 'Hill of Hysteria' – Why Changing Our Environment Is So Hard",
+      "file": "components/data-sources/DS-00001-hill-of-hysteria-wbr.md",
+      "status": "active"
+    },
+    "FA-00009": {
+      "code": "FA-00009",
+      "type": "Fact",
+      "title": "70% Insect Volume Decline",
+      "file": "components/facts/FA-00009-70-percent-insect-volume-decline.md",
+      "status": "active"
+    },
+    "FA-00010": {
+      "code": "FA-00010",
+      "type": "Fact",
+      "title": "UK Road Deaths 35 Per Week",
+      "file": "components/facts/FA-00010-uk-road-deaths-35-per-week.md",
+      "status": "active"
+    },
+    "FA-00011": {
+      "code": "FA-00011",
+      "type": "Fact",
+      "title": "Blackfriars Cycleway Capacity Exceeds Road Lanes",
+      "file": "components/facts/FA-00011-blackfriars-cycleway-capacity.md",
+      "status": "active"
+    },
+    "FA-00012": {
+      "code": "FA-00012",
+      "type": "Fact",
+      "title": "Ljubljana 97% Support Car-Free After Pedestrianisation",
+      "file": "components/facts/FA-00012-ljubljana-97-percent-support-car-free.md",
+      "status": "active"
+    },
+    "FA-00013": {
+      "code": "FA-00013",
+      "type": "Fact",
+      "title": "UK Smoking Rate Declined From 80% to 12%",
+      "file": "components/facts/FA-00013-uk-smoking-rate-decline.md",
+      "status": "active"
+    },
+    "EV-00004": {
+      "code": "EV-00004",
+      "type": "Event",
+      "title": "Ljubljana City Centre Pedestrianisation",
+      "file": "components/events/EV-00004-ljubljana-pedestrianisation-2007.md",
+      "status": "active"
+    }
+  }
+}
