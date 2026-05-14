@@ -71,3 +71,4 @@ Todo list of things I'd like to add in the future
 **Just an idea**
 
 - [ ] Create an Obsidian Vault from the contents (enabling a graph view through its native capability
+- [ ] Add data collection scripts as in the upstream Substrate (this may or not make sense to publish publicly)
